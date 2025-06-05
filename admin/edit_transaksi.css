@@ -1,0 +1,76 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Style */
+body {
+    background-color: #f4fdf6;
+    color: #333;
+    padding: 40px 20px;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 128, 0, 0.1);
+    border-left: 10px solid #4CAF50;
+}
+
+/* Title */
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2e7d32;
+}
+
+/* Table style */
+table {
+    width: 100%;
+}
+
+td {
+    padding: 12px 10px;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+/* Input fields */
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    padding: 10px 25px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #388e3c;
+}

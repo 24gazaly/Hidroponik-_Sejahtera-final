@@ -1,0 +1,67 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background: #e9f5ec;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 128, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 30px;
+    color: #2e7d32;
+    font-size: 28px;
+}
+
+form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+td:first-child {
+    width: 35%;
+    color: #4a4a4a;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #c8e6c9;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #f7fff8;
+}
+
+input[type="submit"] {
+    background-color: #66bb6a;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #388e3c;
+}
