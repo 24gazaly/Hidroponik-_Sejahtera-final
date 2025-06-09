@@ -15,54 +15,56 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <!-- header -->
+  <body class="halaman-callcenter">
+  <!-- header -->
     <!-- navbar -->
     <div class="navbar">
       <div class="logo">
         <h2>Hidroponik <span>Sejahtera</span></h2>
       </div>
       <div class="navigator">
-        <a href="index.html">Home</a>
+        <a href="index.php">Home</a>
         <a href="courses.php">Our Product</a>
         <a href="about.html">About Us</a>
-        <a href="callcenter.html">Call Center</a>
+        <a href="callcenter.php">Call Center</a>
         <a href="riwayat_transaksi.php">History</a>
         <a href="../login, logout/profile.php">Account</a>
       </div>
-      </div>
+    </div>
+
     <!-- banner -->
     <div class="banner">
       <div class="card-courses">
         <div class="text">
-        <h1>Hidroponik <span>Sejahtera</span></h1>
-        <p>
-          The freshes Vegetble in the world
-        </p>
-      </div> 
+          <h1>Hidroponik <span>Sejahtera</span></h1>
+          <p>The freshest vegetable in the world</p>
+        </div>
       </div>
 
       <div class="banner-image">
-        <img src="gambar_lp/logo_hidroponik.png" alt="" />
+        <img src="gambar_lp/logo_hidroponik.png" alt="Logo" />
         <div class="circle"></div>
       </div>
     </div>
     <!-- end header -->
+
     <div class="sub-title">
       <h2>Call Us</h2>
       <hr />
     </div>
-
-    <div class="call-center">
-      <h2>You Can Contact Us At</h2>
-      <h3>Telephone</h3>
-      <p>+62 811-3086-130</p>
-      <h3>Email</h3>
-      <p>Hidroponik_Sejahtera@gamil.com</p>
+    
+    <!-- contact form -->
+    <div class="form-box">
+      <h3>Contact Form</h3>
+      <form action="#" method="post">
+        <input type="text" name="nama" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="pesan" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </div>
 
-    <!-- footer-->
-
+    <!-- footer -->
     <div class="footer">
       <h2>Hidroponik <span>Sejahtera </span></h2>
     </div>
